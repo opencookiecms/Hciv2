@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hci</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_myprofile">My Profile</string>
+    <string name="follower">Follower</string>
+    <string name="followig">Following</string>
+    <string name="findfreinds">Find Friends</string>
+</resources>
