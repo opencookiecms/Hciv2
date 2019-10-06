@@ -55,7 +55,7 @@ public class Requestsadapter extends RecyclerView.Adapter<Requestsadapter.Profil
             profileHolder.imageView.setImageResource(R.drawable.ic_face_black_24dp);
         }
         else {
-            Uri uri = Uri.parse("http://172.20.10.4/hcirestapi/assets/picture/"+picpath);
+            Uri uri = Uri.parse("http://192.168.1.99/hcirestapi/assets/picture/"+picpath);
             Picasso.get().load(uri).into(profileHolder.imageView);
         }
 

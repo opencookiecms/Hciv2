@@ -77,7 +77,7 @@ public class Friendsadapter extends RecyclerView.Adapter<Friendsadapter.ProfileH
                 }
                 else {
                     downloadManager =(DownloadManager) v.getContext().getSystemService(Context.DOWNLOAD_SERVICE);
-                    Uri uri = Uri.parse("http://172.20.10.4/hcirestapi/assets/pdf/"+path);
+                    Uri uri = Uri.parse("http://192.168.1.99/hcirestapi/assets/pdf/"+path);
                     DownloadManager.Request request = new DownloadManager.Request(uri);
                     request.setTitle("Downloading " +path);
                     request.setDescription("Download files");

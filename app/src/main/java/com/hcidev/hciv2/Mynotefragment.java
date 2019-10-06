@@ -120,7 +120,7 @@ public class Mynotefragment extends Fragment {
                 mystatus.setText(response.body().get(0).getUser_caption());
 
 
-                Uri uri = Uri.parse("http://172.20.10.4/hcirestapi/assets/picture/"+response.body().get(0).getUser_pic());
+                Uri uri = Uri.parse("http://192.168.1.99/hcirestapi/assets/picture/"+response.body().get(0).getUser_pic());
                 Picasso.get().load(uri).into(mypic);
 
             }
